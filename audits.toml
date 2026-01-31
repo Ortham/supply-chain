@@ -70,6 +70,12 @@ delta = "2.5.0 -> 2.6.0"
 notes = "The only changes are to derive additional zerocopy traits and to fix some dependency minimum versions."
 aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.ico]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.4.0 -> 0.5.0"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.keyvalues-parser]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
