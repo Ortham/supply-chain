@@ -18,6 +18,12 @@ criteria = "safe-to-deploy"
 delta = "4.5.47 -> 4.5.54"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.clap]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "4.5.54 -> 4.5.58"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.clap_builder]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -30,10 +36,22 @@ criteria = "safe-to-deploy"
 delta = "4.5.47 -> 4.5.54"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.clap_builder]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "4.5.54 -> 4.5.58"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.clap_derive]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "4.5.40 -> 4.5.49"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.clap_lex]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.7.4 -> 1.0.0"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.crossbeam-utils]]
@@ -131,6 +149,12 @@ criteria = "safe-to-deploy"
 delta = "0.21.1 -> 0.21.3"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/libloadorder/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.rustix]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-run"
+delta = "1.1.2 -> 1.1.3"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.svgtypes]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -166,6 +190,12 @@ who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "3.21.0 -> 3.22.0"
 notes = "The only significant change is updating its maximum accepted version of the windows-sys dependency to allow v0.61.x."
+aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.tempfile]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-run"
+delta = "3.23.0 -> 3.25.0"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.unicase]]
