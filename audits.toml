@@ -2,7 +2,19 @@
 [[audits.anstream]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
+version = "0.6.18"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.anstream]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
 delta = "0.6.18 -> 1.0.0"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.anstyle]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+version = "1.0.8"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.anstyle]]
@@ -15,6 +27,24 @@ aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/head
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "0.2.0 -> 1.0.0"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.anstyle-query]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+version = "1.0.0"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.anstyle-query]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.0 -> 1.1.5"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.anstyle-wincon]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+version = "3.0.11"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.autocfg]]
@@ -91,6 +121,12 @@ delta = "0.8.15 -> 0.8.14"
 notes = "This is an audit of a downgrade to fill a gap between third-party audits. The only behavioural difference in the newer version is better handling of integer overflow when providing a timeout for parking a thread."
 aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.errno]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+version = "0.3.14"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.find-msvc-tools]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-run"
@@ -141,6 +177,12 @@ who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "0.2.0 -> 0.2.1"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/libloadorder/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.once_cell_polyfill]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+version = "1.70.2"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.proc-macro2]]
 who = "Oliver Hamlet <git@ortham.net>"
@@ -294,6 +336,14 @@ end = "2026-09-28"
 notes = "kennykerr is on the Windows team at Microsoft."
 aggregated-from = "https://raw.githubusercontent.com/Ortham/libloadorder/refs/heads/master/supply-chain/audits.toml"
 
+[[trusted.windows-link]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2024-07-17"
+end = "2027-03-13"
+notes = "kennykerr is on the Windows team at Microsoft."
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+
 [[trusted.windows-result]]
 criteria = "safe-to-deploy"
 user-id = 64539
@@ -315,7 +365,8 @@ criteria = "safe-to-deploy"
 user-id = 64539
 start = "2021-11-15"
 end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
+notes = "kennykerr is on the Windows team at Microsoft."
+aggregated-from = "https://raw.githubusercontent.com/Ortham/libloadorder/refs/heads/master/supply-chain/audits.toml"
 
 [[trusted.windows-sys]]
 criteria = "safe-to-deploy"
@@ -323,67 +374,12 @@ user-id = 64539
 start = "2021-11-15"
 end = "2026-09-28"
 notes = "kennykerr is on the Windows team at Microsoft."
-aggregated-from = "https://raw.githubusercontent.com/Ortham/libloadorder/refs/heads/master/supply-chain/audits.toml"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
 
 [[trusted.windows-targets]]
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2022-09-09"
 end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_aarch64_gnullvm]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2022-09-01"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_aarch64_msvc]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2021-11-05"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_i686_gnu]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2021-10-28"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_i686_gnullvm]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2024-04-02"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_i686_msvc]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2021-10-27"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_x86_64_gnu]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2021-10-28"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_x86_64_gnullvm]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2022-09-01"
-end = "2026-09-28"
-aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
-
-[[trusted.windows_x86_64_msvc]]
-criteria = "safe-to-deploy"
-user-id = 64539
-start = "2021-10-27"
-end = "2026-09-28"
+notes = "kennykerr is on the Windows team at Microsoft."
 aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/heads/master/supply-chain/audits.toml"
