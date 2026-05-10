@@ -257,6 +257,18 @@ criteria = "safe-to-deploy"
 delta = "1.0.40 -> 1.0.43"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.quote]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.0.43 -> 1.0.45"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.rayon]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "1.11.0 -> 1.12.0"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.resvg]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -302,6 +314,12 @@ aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/
 [[audits.syn]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
+delta = "2.0.100 -> 2.0.106"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.syn]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
 delta = "2.0.106 -> 2.0.112"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
 
@@ -315,6 +333,12 @@ aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "2.0.113 -> 2.0.114"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.syn]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "2.0.114 -> 2.0.117"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.tempfile]]
