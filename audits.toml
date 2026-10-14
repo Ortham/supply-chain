@@ -157,6 +157,12 @@ delta = "0.8.15 -> 0.8.14"
 notes = "This is an audit of a downgrade to fill a gap between third-party audits. The only behavioural difference in the newer version is better handling of integer overflow when providing a timeout for parking a thread."
 aggregated-from = "https://raw.githubusercontent.com/Ortham/esplugin/refs/heads/master/supply-chain/audits.toml"
 
+[[audits.dirs]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "6.0.0 -> 7.0.0"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/libloadorder/refs/heads/master/supply-chain/audits.toml"
+
 [[audits.errno]]
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
@@ -230,6 +236,12 @@ aggregated-from = "https://raw.githubusercontent.com/Ortham/svg_to_ico/refs/head
 who = "Oliver Hamlet <git@ortham.net>"
 criteria = "safe-to-deploy"
 delta = "0.2.0 -> 0.2.1"
+aggregated-from = "https://raw.githubusercontent.com/Ortham/libloadorder/refs/heads/master/supply-chain/audits.toml"
+
+[[audits.keyvalues-parser]]
+who = "Oliver Hamlet <git@ortham.net>"
+criteria = "safe-to-deploy"
+delta = "0.2.1 -> 0.2.4"
 aggregated-from = "https://raw.githubusercontent.com/Ortham/libloadorder/refs/heads/master/supply-chain/audits.toml"
 
 [[audits.kurbo]]
